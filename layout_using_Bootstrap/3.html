@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Bootstrap2</title>
+    <script src="3.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid align-items-center justify-content-around d-flex"
+        style="display:flex;flex-direction:column !important">
+        <!--upper box-->
+        <!--ROW1-->
+        <!--comment section-->
+        <div class="row  mt-2 bg-success " style="display:flex;flex-direction:column;height:150px;width:35%" id="id1">
+            <div class="col align-items-center justify-content-around d-flex" id="classid1">
+                <input type="text" name="" id="inputid1" placeholder="comment here" style="height:50px;width:500px">
+                <button id="btn1" class="bg-primary text-light" onclick="comment()"
+                    style="width:150px;height:50px">COMMENT</button>
+            </div>
+            <!--like-->
+            <div id="classid2" class="col d-flex justify-content-around align-items-center" style=border-top:1px solid
+                !important;>
+                <button id="btn2" class="bg-info" onclick="like()"
+                    style="width:150px;height:50px;font-size: 20px">LIKE</button>
+                <!--dislike-->
+                <button id="btn3" class="bg-info" onclick="dislike()"
+                    style="width:150px;height:50px;font-size: 20px;">DISLIKE</button>
+
+            </div>
+        </div>
+        <!--chat box-->
+
+        <div class="row  mt-2 bg-primary " style="display:flex;flex-direction:column;height:150px;width:35%" id="id2">
+
+            <div class="col align-items-center justify-content-around d-flex bg-secondary" id="classid3"
+                style="padding-left: 20px !important ;">
+
+
+            </div>
+            <!--like dislike delete-->
+            <div id="classid2" class="col d-flex justify-content-around align-items-center" style=border-top:1px solid
+                !important;>
+                <button id="btn4" class="bg-info" onclick="like1()"
+                    style="width:150px;height:50px;font-size: 20px">LIKE</button>
+                <button id="btn5" class="bg-info" onclick="dislike1()"
+                    style="width:150px;height:50px;font-size: 20px;">DISLIKE</button>
+                <button id="btn6" class="bg-info" onclick="delete()"
+                    style="width:150px;height:50px;font-size: 20px;">DELETE</button>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
