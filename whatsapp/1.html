@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Whtsapp page</title>
+    <script src="https://kit.fontawesome.com/48a715465f.js" crossorigin="anonymous"></script>
+
+    <style>
+        .main-parent {
+            background: url("qwd83nc4xxf41.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" style="display:flex;justify-content: center;align-items: center; ">
+        <!--main-container-->
+        <div class="row  mt-5 border broder-outline-dark"
+            style="height:85vh;width:55vw;display:flex;flex-direction: column;justify-content: center;align-items: center;">
+            <!--profile heading-->
+
+            <div class="col" style="display:flex;flex:1;align-items: center;background-color: rgba(8, 193, 226, 0.87);">
+                <i class="fas fa-arrow-left mr-3"></i>
+                <h style="font-size: 32px;font-family: -apple-system;">Shweta Rohidas</h>
+                <div class="col d-flex justify-content-around">
+                    <i class="fas fa-phone-alt ml-5"></i>
+                    <i class="fas fa-video"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+
+            <!--chat box-->
+            <div class="main-parent" id="chatbox" class="col p-0 " style="display:flex;flex:8;flex-direction: column;">
+                <div class="parentclass" style="display:flex;flex-direction: column;">
+                    <p class="para1" id="messageblock" class=" mt-4" style="padding: 5px 12px; background-color: rgb(120, 224, 143);
+                    border-radius: 5px 20px 20px 20px;
+                    font-size: 20px;
+                    font-family:Verdana;">
+                        sample text
+                    </p>
+                    <p class="para2" id="date" style="margin-left: 20px;color: #464647;">
+                        15 Aug 2020
+                    </p>
+                </div>
+            </div>
+
+
+            <!--input message-->
+            <div id="input area" class="col p-0"
+                style="display:flex;flex:0.5;justify-content: center; background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));">
+                <input id="inputbox" type="text" placeholder="type a message..." class="form-control mt-2" style="padding: 20px 20px;align-items: center;display:flex;margin-left: 2px;outline: none;
+                    border-radius: 50px;">
+                <button id="send-btn" onclick="displayMessage()"
+                    style="border-radius:50%;padding: 10px 10px ;margin:4px 0 4px 0;outline: none;background-color: lightseagreen;">
+                    <i class=" fas fa-paper-plane"></i></button>
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+</body>
+<script src="1.js"></script>
+
+</html>
